@@ -1,0 +1,108 @@
+*{
+    margin : 0px;
+}
+
+body{
+    background-color: #333;
+}
+
+/* .navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: inset 0 0 6px black;
+    height: 2pc;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar menu ul li{  
+    padding: 15px;
+    text-decoration: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    
+  }
+ */
+
+.checkImg{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 12pc;
+}
+
+.contenido{
+    background-color: rgb(104, 93, 93);
+    padding: 3pc;
+    margin: 10px;
+    box-shadow: 1px 1px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contenido:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    animation: sol 1s infinite alternate;
+}
+
+
+.ilustracion h1{
+    color: white;
+
+}
+.ilustracion img{
+    height: 200px;
+    width: 150px;
+    display: block; /* Convierte la imagen en un elemento de bloque */
+  padding-top: 20px; /* Aplica el espacio deseado entre el texto y la imagen */
+}
+
+ .checkbox{
+     
+    display: grid;
+     grid-template-columns: repeat(2,1fr); 
+     height: 10pc;
+     border-radius: 2pc;
+} 
+.checkbox label{
+    color: white;
+}
+
+.bts-del-dia{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3pc;
+
+}
+
+.img-namjoon{
+    background-color: rgb(104, 93, 93);
+    padding: 3pc;
+    border-radius: 2pc;
+}
+
+.img-namjoon img {
+    padding-top: 20px;
+    border-radius: 2pc;
+}
+
+
